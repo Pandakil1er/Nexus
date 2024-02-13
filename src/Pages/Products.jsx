@@ -10,9 +10,11 @@ import {
   Image,
   Input,
   SimpleGrid,
+  Spacer,
   Stack,
   Text,
 } from "@chakra-ui/react";
+import Footer2 from "../Components/Footer2";
 
 export default function Products() {
   const [itemOffset, setItemOffset] = useState(0);
@@ -124,6 +126,8 @@ export default function Products() {
           );
         }}
       />
+      <Spacer />
+      <Footer2 />
     </>
   );
 }

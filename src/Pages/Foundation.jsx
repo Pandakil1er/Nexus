@@ -1,5 +1,6 @@
-import { Box, Heading, SimpleGrid, Text } from "@chakra-ui/react";
+import { Box, Heading, SimpleGrid, Spacer, Text } from "@chakra-ui/react";
 import Imagecarouseldata from "../Components/Imagecarouseldata";
+import Footer2 from "../Components/Footer2";
 
 export default function Foundation() {
   let links = [
@@ -84,6 +85,8 @@ export default function Foundation() {
           <Imagecarouseldata Links={links} />
         </Box>
       </SimpleGrid>
+      <Spacer />
+      <Footer2 />
     </>
   );
 }

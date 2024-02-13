@@ -1,7 +1,7 @@
-import { Box, Spacer } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import Navbar from "./Components/Navbar";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
-import Footer2 from "./Components/Footer2";
+
 import { Outlet } from "react-router-dom";
 import "./assets/App.css";
 import NavbarMob from "./Components/NavbarMob";
@@ -38,8 +38,6 @@ function App() {
         <Navbar />
         <NavbarMob />
         <Outlet />
-        <Spacer />
-        <Footer2 />
       </Box>
     </ChakraProvider>
   );

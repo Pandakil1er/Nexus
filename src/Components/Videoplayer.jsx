@@ -3,7 +3,7 @@ import { Box, Heading, Text } from "@chakra-ui/react";
 export default function Videoplayer() {
   return (
     <>
-      <Box w={"100%"} height={"90vh"} minWidth={[null, null, "800px"]}>
+      <Box w={"100%"} minWidth={[null, null, "800px"]}>
         <Box
           position={"absolute"}
           zIndex={"1"}

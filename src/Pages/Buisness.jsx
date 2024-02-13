@@ -5,6 +5,7 @@ import {
   Heading,
   Image,
   SimpleGrid,
+  Spacer,
   Stat,
   StatArrow,
   StatGroup,
@@ -13,6 +14,7 @@ import {
   StatNumber,
   Text,
 } from "@chakra-ui/react";
+import Footer2 from "../Components/Footer2";
 
 export default function Buisness() {
   return (
@@ -189,6 +191,8 @@ export default function Buisness() {
         </Heading>
         <Image src="/partner.png" width={["90%", null, "50%"]} />
       </Flex>
+      <Spacer />
+      <Footer2 />
     </>
   );
 }

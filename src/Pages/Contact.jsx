@@ -1,5 +1,6 @@
-import { Box, Flex, Heading, Text, Center } from "@chakra-ui/react";
+import { Box, Flex, Heading, Text, Center, Spacer } from "@chakra-ui/react";
 import Map from "../Components/Map";
+import Footer2 from "../Components/Footer2";
 
 export default function Contact() {
   return (
@@ -54,6 +55,8 @@ export default function Contact() {
       </Box>
 
       <Map height={"500px"} width={"100%"} />
+      <Spacer />
+      <Footer2 />
     </>
   );
 }

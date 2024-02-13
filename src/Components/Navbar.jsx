@@ -13,7 +13,7 @@ export default function Navbar() {
         backgroundColor={"background"}
         w={"100%"}
         color={"foreground"}
-        h={"6rem"}
+        h={"10vh"}
         gap={"1rem"}
         p={"0 4rem 0 3rem"}
         minWidth={"800px"}
@@ -32,9 +32,7 @@ export default function Navbar() {
           <Link as={ReactRouterLink} to="/products">
             <Text>Products</Text>
           </Link>
-          <Link as={ReactRouterLink} to="/buisness">
-            <Text>Buisnesses</Text>
-          </Link>
+
           <Link as={ReactRouterLink} to="/investors">
             <Text>Investors</Text>
           </Link>

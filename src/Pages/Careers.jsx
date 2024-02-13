@@ -5,8 +5,10 @@ import {
   Image,
   Link,
   SimpleGrid,
+  Spacer,
   Text,
 } from "@chakra-ui/react";
+import Footer2 from "../Components/Footer2";
 
 export default function Careers() {
   return (
@@ -44,6 +46,8 @@ export default function Careers() {
           src="/car.png"
         ></Image>
       </SimpleGrid>
+      <Spacer />
+      <Footer2 />
     </>
   );
 }

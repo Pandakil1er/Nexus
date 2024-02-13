@@ -1,8 +1,9 @@
-import { Box, Flex, Heading, Link, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, Link, Spacer, Text } from "@chakra-ui/react";
 import { useState } from "react";
 import ReactPaginate from "react-paginate";
 import "../assets/Paginate.css";
 import data from "../assets/data.json";
+import Footer2 from "../Components/Footer2";
 
 export default function Investors() {
   const items = data.items;
@@ -61,6 +62,8 @@ export default function Investors() {
           renderOnZeroPageCount={null}
         />
       </Box>
+      <Spacer />
+      <Footer2 />
     </>
   );
 }

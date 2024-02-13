@@ -11,9 +11,11 @@ import {
   Image,
   Link,
   SimpleGrid,
+  Spacer,
   Stack,
   Text,
 } from "@chakra-ui/react";
+import Footer2 from "../Components/Footer2";
 
 export default function Media() {
   const items = data.items;
@@ -68,6 +70,8 @@ export default function Media() {
         previousLabel="< previous"
         renderOnZeroPageCount={null}
       />
+      <Spacer />
+      <Footer2 />
     </>
   );
 }
