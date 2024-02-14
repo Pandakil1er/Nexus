@@ -4,7 +4,6 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./Pages/Home.jsx";
 import Contact from "./Pages/Contact.jsx";
 import About from "./Pages/About.jsx";
-import Buisness from "./Pages/Buisness.jsx";
 import Foundation from "./Pages/Foundation.jsx";
 import Investors from "./Pages/Investors.jsx";
 import Media from "./Pages/Media.jsx";
@@ -29,10 +28,7 @@ const router = createBrowserRouter([
         path: "/products",
         element: <Products />,
       },
-      {
-        path: "/Buisness",
-        element: <Buisness />,
-      },
+
       {
         path: "/Foundation",
         element: <Foundation />,

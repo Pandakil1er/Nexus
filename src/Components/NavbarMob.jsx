@@ -23,6 +23,7 @@ export default function NavbarMob() {
         justifyContent={"space-between"}
         alignItems={"center"}
         p={"1rem"}
+        height={"10vh"}
       >
         <Link as={ReactRouterLink} to="/">
           <Heading>logo</Heading>
